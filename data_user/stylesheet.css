@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#user_table{
+    margin-top: 10%;
+    margin-right: 8%;
+    margin-left: 8%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#user_table td, #user_table th{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    
+}
+
+button{
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+#add_form,#edit_form{
+    /* margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%; */
+    display: grid;
+    grid-template-columns: auto 200px;
+    align-items: center;
+    justify-content: left;
+    column-gap: 20px;
+    
+}
+
+/* #add input{
+    display: inline;
+} */
